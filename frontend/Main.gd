@@ -2,9 +2,6 @@ extends Control
 
 var tweet_content
 
-func _ready():
-	$LineEdit.focus_mode = true
-
 func _on_Tweet_pressed():
 	
 	var tweet = {
