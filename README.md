@@ -1,7 +1,5 @@
 # Twitter For Chads
-Twitter app made for Real Men.
-
-A simple app made with FastAPI in the Backend and Godot in the Frontend.
+Twitter app made for Real Men with FastAPI in the Backend and Godot in the Frontend.
 
 How to use this:
   - Install <a href="https://godotengine.org/">Godot</a>
