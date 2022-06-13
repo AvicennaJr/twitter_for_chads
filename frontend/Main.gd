@@ -14,3 +14,7 @@ func _on_Tweet_pressed():
 
 func _on_HTTPRequest_request_completed(result, response_code, headers, body):
 	var json = JSON.parse(body.get_string_from_utf8())
+	print(json.result)
+
+func _on_LineEdit_text_entered(new_text):
+	tweet_content = new_text
